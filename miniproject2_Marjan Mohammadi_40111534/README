@@ -1,0 +1,116 @@
+# Mini Project 2: Machine Learning - Spring 1403
+
+## Overview
+
+This mini project is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The project includes practical exercises for working with neural networks, fault diagnosis data, classification trees, and pre-processing for classification models.
+
+## Project Structure
+
+This mini project is divided into four main sections:
+
+1. **Question 1:** Neural Networks and Activation Functions
+2. **Question 2:** Fault Diagnosis with CWRU Bearing Data
+3. **Question 3:** Decision Trees for Classification
+4. **Question 4:** Pre-processing and Classification with Naive Bayes
+
+## Question 1: Neural Networks and Activation Functions
+
+### Section 1.1: Sigmoid and ReLU Activation Functions
+
+- **Objective:** Assume a binary classification problem with a neural network having two output layers with Sigmoid and ReLU activation functions.
+- **Description:** Explain the changes and implications in the network's behavior when using these activation functions.
+
+### Section 1.2: Gradient Calculation for ReLU
+
+- **Objective:** Provide a replacement for ReLU and calculate its gradient.
+- **Equation:** Use the provided equation for ELU (Exponential Linear Unit):
+  \[
+  ELU(x) = \begin{cases} 
+  x & x \ge 0 \\
+  \alpha (e^x - 1) & x < 0 
+  \end{cases}
+  \]
+
+### Section 1.3: McCulloch-Pitts Neuron
+
+- **Objective:** Design a simple neuron or a perceptron that can distinguish data within a shaded triangular area.
+- **Tool:** Develop a code in Colab that can generate 2000 random points and classify them using the designed neuron. Plot the results showing the classified areas.
+
+## Question 2: Fault Diagnosis with CWRU Bearing Data
+
+### Section 2.1: Extending the Dataset
+
+- **Objective:** Extend the previously familiar CWRU Bearing dataset by adding data from two additional classes (OR007@6_X and 2B007_X).
+- **Steps:** Download and integrate the data into a new dataset and explain the types of faults related to each file.
+
+### Section 2.2: Feature Extraction and Data Preparation
+
+- **Objective:** Continue the tasks from the second question of Mini Project 1 and add validation data to the dataset.
+- **Description:** Explain the purpose and application of the validation set in the training process.
+
+### Section 2.3: Multi-Layer Perceptron (MLP)
+
+- **Objective:** Train a simple MLP model with two or more hidden layers on the new dataset.
+- **Steps:** Select appropriate loss function and optimizer, train the model, and plot the loss and accuracy for both training and validation sets. Analyze and report the results.
+
+### Section 2.4: Changing Loss Function and Optimizer
+
+- **Objective:** Repeat the previous process with a different loss function and optimizer.
+- **Analysis:** Compare and analyze the results to determine the impact of these changes.
+
+### Section 2.5: Cross-Validation
+
+- **Objective:** Implement K-Fold and Stratified K-Fold Cross-Validation.
+- **Steps:** Choose one method, justify your choice, and analyze the results.
+
+## Question 3: Decision Trees for Classification
+
+### Section 3.1: Dataset Selection
+
+- **Objective:** Choose a dataset related to drug classification or forest cover type.
+- **Steps:** Divide the data into training and testing sets, explaining the method used for data splitting.
+
+### Section 3.2: Decision Tree Implementation
+
+- **Objective:** Write a program to design a decision tree for the selected dataset.
+- **Evaluation:** Use confusion matrix and at least three evaluation metrics to assess the model's performance on the test data. Report and analyze the results.
+
+### Section 3.3: Hyperparameter Tuning and Pruning
+
+- **Objective:** Analyze the effect of changing hyperparameters related to pruning.
+- **Analysis:** Discuss the advantages of pruning and its impact on results.
+
+### Section 3.4: Advanced Methods
+
+- **Objective:** Explore methods like Random Forest and AdaBoost to improve the results.
+- **Implementation:** Choose one method, use appropriate hyperparameters, and compare the results with the previous implementation.
+
+## Question 4: Pre-processing and Classification with Naive Bayes
+
+### Section 4.1: Pre-processing
+
+- **Objective:** Pre-process a heart disease dataset and split it into training and testing sets.
+- **Steps:** Implement necessary pre-processing steps and explain the importance of each step.
+
+### Section 4.2: Naive Bayes Classification
+
+- **Objective:** Apply Gaussian Naive Bayes classification on the pre-processed dataset.
+- **Evaluation:** Compare the Micro and Macro classification reports and explain the differences.
+
+### Section 4.3: Prediction Comparison
+
+- **Objective:** Randomly select five test samples and compare the predicted outputs with the actual outputs.
+
+## Usage
+
+To use the code and results from this project, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each project folder.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these projects.
