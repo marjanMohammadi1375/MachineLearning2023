@@ -1,9 +1,10 @@
 # Machine Learning Course Repository
 
-Welcome to the Machine Learning Course repository. This repository contains all the miniprojects, exams, and final project completed as part of the Machine Learning course. Below, you will find an overview of the contents and structure of this repository.
+Welcome to the Machine Learning Course repository. This repository contains all the coursework, projects, exams, and final project completed as part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. Below, you will find an overview of the contents and structure of this repository.
 
 ## Table of Contents
 
+- [Course Overview](#course-overview)
 - [Repository Structure](#repository-structure)
 - [Mini Projects](#mini-projects)
 - [Midterm Exam](#midterm-exam)
@@ -11,6 +12,10 @@ Welcome to the Machine Learning Course repository. This repository contains all 
 - [Final Project](#final-project)
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
+
+## Course Overview
+
+This repository is part of the Machine Learning course, which covers various fundamental and advanced topics in machine learning. The coursework includes theoretical and practical components aimed at providing a comprehensive understanding of machine learning concepts and techniques.
 
 ## Repository Structure
 
@@ -25,35 +30,64 @@ The repository is organized into the following sections:
 
 The mini projects are practical assignments designed to apply the concepts learned in the lectures. Each project focuses on a specific aspect of machine learning. The mini projects included are:
 
-1. **Project 1:** [Project Title]
-   - Description: Brief description of the project.
-   - Files: [List of relevant files]
-   
-2. **Project 2:** [Project Title]
-   - Description: Brief description of the project.
-   - Files: [List of relevant files]
-   
-3. **Project 3:** [Project Title]
-   - Description: Brief description of the project.
-   - Files: [List of relevant files]
-     
-4. **Project 4:** [Project Title]
-   - Description: Brief description of the project.
-   - Files: [List of relevant files]
+### Mini Project 1: Linear Classification and Data Analysis
+
+- **Objective:** Train and evaluate linear classification models, generate synthetic data, and analyze results.
+- **Tasks:**
+  - Block diagram for training and evaluation.
+  - Generating synthetic datasets.
+  - Training a linear classifier.
+  - Visualizing decision boundaries.
+  - Repeating the process with new data.
+
+### Mini Project 2: Neural Networks and Fault Diagnosis
+
+- **Objective:** Work with neural networks, analyze fault diagnosis data, and use decision trees for classification.
+- **Tasks:**
+  - Implementing and analyzing neural networks.
+  - Extending the CWRU Bearing dataset.
+  - Training a Multi-Layer Perceptron (MLP).
+  - Cross-validation and hyperparameter tuning.
+
+### Mini Project 3: Support Vector Machines and Custom Algorithms
+
+- **Objective:** Experiment with SVM on the IRIS dataset, study the GenSVM paper, and detect credit card fraud using Autoencoders.
+- **Tasks:**
+  - SVM classification and kernel comparison.
+  - Implementing GenSVM.
+  - Credit card fraud detection using Autoencoders.
+
+### Mini Project 4: Reinforcement Learning and Deep Q-Learning
+
+- **Objective:** Solve classic reinforcement learning problems using Q-learning and Deep Q-Learning.
+- **Tasks:**
+  - Solving the Wumpus World problem.
+  - Deep Q-learning for the Lunar Lander environment.
+  - Model performance evaluation and hyperparameter optimization.
 
 ## Midterm Exam
 
 The midterm exam assesses the understanding of the fundamental concepts covered in the first half of the course. It includes both theoretical questions and practical problems.
 
-- **Exam File:** [Link to midterm exam file]
-- **Solutions:** [Link to solutions]
+### Topics Covered:
+
+- True/False statements about classification and estimation.
+- Perceptron Tree algorithm.
+- Neural Network for binary classification.
+- Fault diagnosis using DAMADICS dataset.
+- Data preprocessing, feature extraction, and cross-validation.
 
 ## Final Exam
 
 The final exam covers the entire course and tests both the theoretical knowledge and practical skills in machine learning.
 
-- **Exam File:** [Link to final exam file]
-- **Solutions:** [Link to solutions]
+### Topics Covered:
+
+- Support Vector Machines and non-linear transformations.
+- Classification of Iranian traditional music.
+- Reinforcement learning and Q-learning.
+- Feature extraction and dimensionality reduction.
+- Autoencoder for feature extraction.
 
 ## Final Project
 
@@ -78,8 +112,4 @@ Navigate to the relevant directory and follow the instructions provided in the R
 
 ## Acknowledgements
 
-I would like to thank the course instructors and peers for their guidance and support throughout the course. Their insights and feedback have been invaluable in the completion of these projects.
-
----
-
-This README provides a clear and organized overview of the repository, making it easy for others to understand and navigate through your coursework and projects.
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout the course. Their insights and feedback have been invaluable in the completion of these projects.
