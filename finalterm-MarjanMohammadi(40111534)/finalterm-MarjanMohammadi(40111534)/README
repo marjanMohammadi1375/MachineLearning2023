@@ -1,0 +1,115 @@
+# Final Exam: Machine Learning - Spring 1403
+
+## Overview
+
+This final exam is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The exam assesses knowledge and understanding of various machine learning concepts and techniques, including Support Vector Machines (SVM), feature extraction, classification algorithms, neural networks, and reinforcement learning.
+
+## Exam Structure
+
+The exam is divided into three main sections:
+
+1. **Question 1:** Support Vector Machines and Non-linear Transformations
+2. **Question 2:** Classification of Iranian Traditional Music
+3. **Question 3:** Reinforcement Learning and Q-Learning
+
+## Instructions
+
+- **Submission Deadline:** Friday, 15th of Tir 1403, by 18:00.
+- **Allowed Materials:** Only conventional, non-living aids are permitted.
+- **Submission Format:** Submit a single PDF file for the report and a single .IPYNB file for the code.
+- **Important:** Clearly provide links to your Google Colab and/or Google Drive files in your report.
+
+## Question 1: Support Vector Machines and Non-linear Transformations
+
+### Tasks
+
+#### Task 1.1: Cost Function for SVM
+
+- **Objective:** Given a system that is not linearly separable, determine the conditions under which the following cost function is valid:
+  \[
+  L(w, b, \Lambda, R, \epsilon) = \frac{1}{2} \|w\|^2 - \sum_{i=1}^{N} \alpha_i \left(y_i \left(w^T x_i + b\right) - 1 + \epsilon_i\right) - \sum_{i=1}^{N} r_i \epsilon_i + C \sum \epsilon_i^2
+  \]
+  - **Conditions:** \(0 \leq \alpha_i \leq C\)
+
+#### Task 1.2: LDA Dimensionality Reduction
+
+- **Objective:** Prove the relationship for Total Scatter, Between Scatter, and Within Scatter in LDA:
+  \[
+  S_{Total} = S_B + S_W
+  \]
+  - **Formulas:** \(S_B = \text{Between Scatter}\), \(S_W = \text{Within Scatter}\)
+
+#### Task 1.3: Non-linear Transformation for SVM
+
+- **Objective:** For a given set of 2D points, apply the non-linear transformation \(\phi(x) = (x_1^2 + x_2^2, x_1 - x_2)\).
+  - **Tasks:**
+    - Plot the transformed vectors \(\phi_i(x)\) in the feature space.
+    - Identify the support vectors.
+    - Solve the dual problem to find optimal weights and bias.
+
+## Question 2: Classification of Iranian Traditional Music
+
+### Tasks
+
+#### Task 2.1: Data Preparation
+
+- **Objective:** Prepare and preprocess the dataset of Iranian traditional music.
+  - **Tasks:**
+    - Split the dataset into training and testing sets.
+    - Plot a correlation matrix and bar charts of the most important features.
+
+#### Task 2.2: SVM Classification
+
+- **Objective:** Use SVM with linear and non-linear kernels to classify the music genres.
+  - **Tasks:**
+    - Plot the confusion matrix and classification report.
+    - Perform parameter tuning using GridSearch and K-Fold Cross Validation.
+
+#### Task 2.3: Dimensionality Reduction
+
+- **Objective:** Apply PCA and LDA for dimensionality reduction.
+  - **Tasks:**
+    - Plot the results in 2D and 3D spaces.
+    - Analyze the impact of the number of PCA components on classification accuracy.
+
+#### Task 2.4: Feature Extraction with Autoencoder
+
+- **Objective:** Design an autoencoder for feature extraction.
+  - **Tasks:**
+    - Plot the loss curves for training and validation sets.
+    - Compare the performance with traditional feature extraction methods.
+
+## Question 3: Reinforcement Learning and Q-Learning
+
+### Tasks
+
+#### Task 3.1: Simple Q-Learning Algorithm
+
+- **Objective:** Implement a simple Q-learning algorithm in a deterministic environment.
+  - **Tasks:**
+    - Initialize Q-values to zero and update using the rule:
+      \[
+      \hat{Q}(s, a) = r + \gamma \max_{a'} \hat{Q}(s', a')
+      \]
+    - Plot the Q-values after multiple episodes.
+
+#### Task 3.2: Policy Evaluation
+
+- **Objective:** Evaluate the policy derived from the Q-values.
+  - **Tasks:**
+    - Determine if the policy is optimal.
+    - Illustrate the policy using arrows in the environment grid.
+
+## Usage
+
+To use the code and results from this exam, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each section.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these tasks.
