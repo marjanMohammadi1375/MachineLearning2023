@@ -1,0 +1,95 @@
+# Mini Project 1: Machine Learning - Spring 1403
+
+## Overview
+
+This mini project is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The project includes practical exercises for training and evaluating machine learning models, generating synthetic data, using pre-built models in Python, and analyzing the results.
+
+## Project Structure
+
+This mini project is divided into three main sections:
+
+1. **Question 1:** Training and evaluating a linear classification model
+2. **Question 2:** Analyzing and processing data related to fault diagnosis
+3. **Question 3:** Analyzing and estimating weather data
+
+## Question 1: Training and Evaluating a Linear Classification Model
+
+### Section 1.1: Block Diagram
+
+- **Objective:** Display the process of training and evaluating a linear classification model using a block diagram.
+- **Description:** Explain how the classification type changes from binary to multiclass and the impact of these changes on the block diagram.
+
+### Section 1.2: Generating Synthetic Dataset
+
+- **Tool:** Use `sklearn.datasets` to generate a dataset with 1000 samples and 4 classes.
+- **Challenge:** Explain the challenges of generating the dataset and how to make it more challenging.
+
+### Section 1.3: Using a Linear Classification Model
+
+- **Tool:** Use `sklearn.linear_model` to train and evaluate a linear classification model.
+- **Hyperparameters:** Explain important hyperparameters such as learning rate and number of training epochs.
+
+### Section 1.4: Displaying Decision Boundaries
+
+- **Objective:** Display the decision boundaries of the trained model and the misclassified samples.
+
+### Section 1.5: Repeating the Process with New Data
+
+- **Tool:** Use `drawdata` to generate new data and repeat the previous process.
+
+## Question 2: Analyzing and Processing Data Related to Fault Diagnosis
+
+### Section 2.1: Understanding the CWRU Bearing Dataset
+
+- **Objective:** Collect and analyze data related to fault diagnosis from the CWRU Bearing dataset.
+- **Steps:** 
+  - Download healthy and faulty data.
+  - Form a data matrix using samples and labels.
+
+### Section 2.2: Feature Extraction
+
+- **Objective:** Extract various features from the data to improve the machine learning model.
+- **Features:** Use features such as standard deviation, root mean square, etc.
+
+### Section 2.3: Data Normalization
+
+- **Methods:** Explain and use various data normalization methods.
+
+### Section 2.4: Evaluating Model without Pre-built Libraries
+
+- **Objective:** Implement a learning algorithm and loss function without using pre-built Python libraries.
+- **Analysis:** Analyze the results and plot the related graphs.
+
+## Question 3: Analyzing and Estimating Weather Data
+
+### Section 3.1: Analyzing Weather Data
+
+- **Objective:** Analyze data related to temperature and humidity in Szeged city.
+- **Tool:** Plot histograms and heatmaps of scatter and correlation.
+
+### Section 3.2: Estimating Using LS and RLS
+
+- **Objective:** Apply LS and RLS estimates on the data and analyze the results.
+- **Steps:** Adjust suitable parameters and plot error graphs.
+
+### Section 3.3: Using Weighted Least Square Method
+
+- **Objective:** Explain and apply the Weighted Least Square method on the given dataset.
+
+### Section 3.4: Research on QR-Decomposition-Based RLS Algorithm
+
+- **Research:** Answer the optional question and research the QR-Decomposition-Based RLS algorithm.
+
+## Usage
+
+To use the code and results from this project, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each project folder.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these projects.
