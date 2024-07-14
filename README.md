@@ -1,6 +1,6 @@
 # Machine Learning Course Repository
 
-Welcome to the Machine Learning Course repository. This repository contains all the coursework, projects, exams, and final project completed as part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. Below, you will find an overview of the contents and structure of this repository.
+Welcome to the Machine Learning Course repository. This repository contains all the coursework, projects, exams, and the final project completed as part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. Below, you will find an overview of the contents and structure of this repository.
 
 ## Table of Contents
 
@@ -89,16 +89,26 @@ The final exam covers the entire course and tests both the theoretical knowledge
 - Feature extraction and dimensionality reduction.
 - Autoencoder for feature extraction.
 
-## Final Project
+## Final Project: Implementing an Autoencoder Network
 
-The final project is a comprehensive application of the concepts and techniques learned throughout the course. It involves developing a machine learning model to solve a specific problem.
+The final project involves implementing an autoencoder network to solve a specific problem. The autoencoder is used for feature extraction and dimensionality reduction, which are essential for various machine learning applications.
 
-- **Project Title:** [Title of the final project]
-- **Description:** Brief description of the project and its objectives.
-- **Files:**
-  - Code: [Link to the code directory]
-  - Data: [Link to the data directory]
-  - Documentation: [Link to the documentation]
+### Project Title: Implementing an Autoencoder for Feature Extraction
+
+- **Objective:** Develop and train an autoencoder network for effective feature extraction and dimensionality reduction.
+- **Description:** The project involves designing an autoencoder, training it on a dataset, and evaluating its performance in extracting meaningful features from the data.
+- **Tasks:**
+  - **Designing the Autoencoder:**
+    - Define the architecture of the autoencoder network, including the encoder and decoder parts.
+    - Choose appropriate activation functions and loss functions.
+  - **Training the Autoencoder:**
+    - Preprocess the dataset for training.
+    - Train the autoencoder using the training data and monitor the training process.
+  - **Evaluating the Autoencoder:**
+    - Evaluate the performance of the autoencoder using test data.
+    - Visualize the extracted features and compare them with traditional feature extraction methods.
+  - **Documentation:**
+    - Provide detailed documentation of the code, including explanations of the architecture, training process, and evaluation results.
 
 ## Usage
 
