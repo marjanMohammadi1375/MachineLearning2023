@@ -1,0 +1,78 @@
+# Mini Project 3: Machine Learning - Spring 1403
+
+## Overview
+
+This mini project is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The project includes practical exercises involving Support Vector Machines (SVM), custom algorithm implementations, and analysis of scientific papers.
+
+## Project Structure
+
+This mini project is divided into three main sections:
+
+1. **Question 1:** Experimenting with SVM on the IRIS dataset
+2. **Question 2:** Study and implementation of the GenSVM paper
+3. **Question 3:** Credit card fraud detection using Autoencoder
+
+## Question 1: Experimenting with SVM on the IRIS Dataset
+
+### Section 1.1: Loading the IRIS Dataset
+
+- **Objective:** Load the IRIS dataset and extract information such as the number of samples, dimensions, mean, and variance.
+- **Tool:** Use `t-SNE` for dimensionality reduction and visual and statistical analysis of the extracted information.
+
+### Section 1.2: Using the SVM Algorithm
+
+- **Objective:** Use the SVM algorithm with various kernels to classify the data.
+- **Steps:** Plot decision boundaries in a 2D space and provide analysis.
+
+### Section 1.3: Comparing and Analyzing Kernels
+
+- **Objective:** Use different SVM kernels and analyze the obtained results.
+- **Steps:** Implement and compare results using the `scikit-learn` library and create GIF images for different degrees.
+
+### Section 1.4: Implementing SVM from Scratch
+
+- **Objective:** Implement the SVM algorithm without using the `scikit-learn` library.
+- **Steps:** Define an SVM class with `Fit` and `Predict` methods, and compare the results with the previous implementation.
+
+## Question 2: Study and Implementation of the GenSVM Paper
+
+### Section 2.1: Studying the Paper
+
+- **Objective:** Study the paper "GenSVM: A Generalized Multiclass Support Vector Machine" and explain the innovations presented in it.
+- **Steps:** Summarize and explain the methods and results presented in the paper.
+
+### Section 2.2: Implementing the Paper
+
+- **Objective:** Implement the results of the paper and compare them with the obtained results.
+- **Steps:** Use the IRIS dataset and analyze the obtained results using available libraries.
+
+## Question 3: Credit Card Fraud Detection Using Autoencoder
+
+### Section 3.1: Studying the Paper
+
+- **Objective:** Study the paper "Credit Card Fraud Detection Using Autoencoder Neural Network" and answer questions related to the challenges and methods presented.
+- **Steps:** Provide a brief explanation of the network architecture and methods used.
+
+### Section 3.2: Implementing the Autoencoder Model
+
+- **Objective:** Implement the Autoencoder model on the credit card fraud dataset.
+- **Steps:** Adjust the model to prevent overfitting and use validation data to set the best weights.
+
+### Section 3.3: Evaluating the Model
+
+- **Objective:** Evaluate the model using metrics such as accuracy, precision, recall, and various plots.
+- **Steps:** Plot confusion matrices and compare models using imbalanced data.
+
+## Usage
+
+To use the code and results from this project, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each project folder.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these projects.
