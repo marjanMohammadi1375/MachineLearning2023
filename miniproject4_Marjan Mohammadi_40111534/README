@@ -1,0 +1,104 @@
+# Mini Project 4: Machine Learning - Spring 1403
+
+## Overview
+
+This mini project is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The project involves practical exercises in reinforcement learning and deep Q-learning to solve classic problems in artificial intelligence.
+
+## Project Structure
+
+This mini project is divided into two main sections:
+
+1. **Question 1:** Solving the Wumpus World
+2. **Question 2:** Deep Q-Learning for the Lunar Lander Environment
+
+## Question 1: Solving the Wumpus World
+
+### Environment Setup
+
+- **Objective:** Solve the classic Wumpus World problem, where an agent must navigate a 4x4 grid, avoid pits and the Wumpus, collect gold, and optionally shoot an arrow to kill the Wumpus.
+- **Environment:** 
+  - A 4x4 grid where each cell may contain a pit, gold, or the Wumpus.
+  - Actions: Move up, down, left, right, and shoot an arrow in one of these directions.
+
+### Parameters
+
+- **Learning Rate:** 0.1
+- **Discount Factor:** 0.9
+- **Exploration Rate (Epsilon):** Starts at 1.0 and decays over time.
+
+### Tasks
+
+#### Task 1.1: Q-learning and Deep Q-learning
+
+- **Objective:** Train the agent using Q-learning and Deep Q-learning (DQN) methods.
+- **Steps:**
+  - Implement Q-learning and Deep Q-learning algorithms.
+  - Train the agent to navigate the grid, avoid dangers, collect gold, and optionally shoot the Wumpus.
+
+#### Task 1.2: Policy Performance
+
+- **Objective:** Plot cumulative rewards over episodes for both Q-learning and DQN agents to observe performance improvement over time.
+- **Analysis:** Compare the average reward per episode after 1000 episodes for both agents.
+
+#### Task 1.3: Impact of Exploration Rate
+
+- **Objective:** Discuss how the exploration rate (epsilon) impacts the learning process.
+- **Analysis:** Observe and report the agent's behavior at high vs. low epsilon values.
+
+#### Task 1.4: Learning Efficiency
+
+- **Objective:** Determine the number of episodes required for the Q-learning agent to consistently find the gold without falling into pits or getting caught by the Wumpus.
+- **Comparison:** Compare the efficiency of learning optimal policies between Q-learning and DQN.
+
+#### Task 1.5: Neural Network Architecture for DQN
+
+- **Objective:** Explain the chosen neural network architecture for the DQN agent.
+- **Details:** Justify the choice and configuration of layers and parameters.
+
+## Question 2: Deep Q-Learning for the Lunar Lander Environment
+
+### Environment Setup
+
+- **Objective:** Design an agent using Deep Q-Learning to solve the Lunar Lander problem.
+- **Environment:** 
+  - The Lunar Lander environment with state space, action space, and reward system provided by OpenAI Gym.
+
+### Tasks
+
+#### Task 2.1: Environment Analysis
+
+- **Objective:** Analyze the Lunar Lander environment.
+- **Details:** Summarize the key features, state space, action space, and reward system.
+
+#### Task 2.2: Performance Evaluation
+
+- **Objective:** Evaluate the agent's performance over various episodes.
+- **Steps:**
+  - Plot cumulative rewards for different batch sizes (32, 64, 128).
+  - Record a video of the agent's performance at different stages (50, 100, 150, 200, 250 episodes).
+
+#### Task 2.3: Model Comparison
+
+- **Objective:** Compare the performance of DQN and Double DQN (DDQN) models.
+- **Steps:**
+  - Plot cumulative rewards per episode for both models.
+  - Record a video showing the agent's performance for each model at 100 and 250 episodes.
+
+#### Task 2.4: Hyperparameter Optimization
+
+- **Objective:** Optimize hyperparameters to improve the agent's learning efficiency.
+- **Steps:** Choose the best hyperparameters based on the convergence speed to optimal reward and compare with other configurations.
+
+## Usage
+
+To use the code and results from this project, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each project folder.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these projects.
