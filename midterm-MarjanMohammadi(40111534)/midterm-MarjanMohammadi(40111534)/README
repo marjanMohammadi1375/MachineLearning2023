@@ -1,0 +1,76 @@
+# Midterm Exam: Machine Learning - Spring 1403
+
+## Overview
+
+This midterm exam is part of the Machine Learning course taught in Spring 1403 at K.N. Toosi University of Technology. The exam assesses knowledge and understanding of various machine learning concepts and techniques, including classification algorithms, decision trees, neural networks, and fault diagnosis systems.
+
+## Exam Structure
+
+The exam is divided into two main sections:
+
+1. **Section 1:** Questions 1-3 (36 points, 30 minutes)
+2. **Section 2:** Questions 4-6 (64 points, 110 minutes)
+
+## Instructions
+
+- **Submission Deadline:** Friday, 15th of Tir 1403, by 18:00.
+- **Allowed Materials:** Only conventional, non-living aids are permitted.
+- **Submission Format:** Submit a single PDF file for the report and a single .IPYNB file for the code.
+- **Important:** Clearly provide links to your Google Colab and/or Google Drive files in your report.
+
+## Section 1: Questions 1-3 (36 points, 30 minutes)
+
+### Question 1
+
+**True/False Statements:**
+1. Naive Bayes is the best classifier that can be designed for a binary classification problem.
+2. Using Bayesian estimation for parameter distribution can prevent overfitting.
+3. Information Gain is not suitable for building decision trees in conditions where some features have many states.
+4. A multi-layer neural network with linear activation functions in hidden layers cannot represent hidden patterns.
+
+### Question 2
+
+**Perceptron Tree Algorithm:**
+- **Objective:** Combine the desirable properties of decision trees and perceptrons using a new algorithm called "perceptron tree."
+- **Tasks:**
+  1. Predict the output label for the given sample `x = [1, 1, 0, 1, 0, 1]`.
+  2. Determine if the decision boundary of a perceptron tree is always linear and compare with regular decision trees.
+
+### Question 3
+
+**Neural Network for Binary Classification:**
+- **Objective:** Use a neural network with one hidden layer for binary classification.
+- **Tasks:**
+  1. Express the output `P(Y = 1 | X, w)` in terms of input features and weights.
+  2. Draw an equivalent neural network without any hidden layers.
+  3. Discuss if any multi-layered neural network with linear activation functions can be represented without hidden layers.
+
+## Section 2: Questions 4-6 (64 points, 110 minutes)
+
+### Question 4
+
+**Fault Diagnosis Using DAMADICS Dataset:**
+- **Objective:** Design a neural network-based system for fault diagnosis using the DAMADICS dataset.
+- **Tasks:**
+  1. Perform appropriate data preprocessing (normalization, standardization, handling missing data, etc.).
+  2. Extract features using at least five different methods and provide a correlation analysis.
+  3. Draw a block diagram of the proposed neural network structure and specify the chosen parameters.
+  4. Plot the loss and accuracy curves for different configurations.
+  5. Plot the confusion matrix and classification report for the test data.
+  6. Implement cross-validation using K-Fold or Stratified K-Fold methods.
+  7. Save the model weights and provide code to load the model for testing.
+  8. If unable to implement any parts, explain why and suggest alternative datasets.
+
+## Usage
+
+To use the code and results from this exam, first clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/machine-learning-course.git
+```
+
+Then navigate to the relevant directory and follow the instructions provided in the README file within each section.
+
+## Acknowledgements
+
+I would like to thank Dr. Aliyari and Mr AHMADI and my TAs for their guidance and support throughout this course. Their insights and feedback have been invaluable in completing these tasks.
